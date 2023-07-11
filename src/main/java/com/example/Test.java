@@ -8,7 +8,7 @@ public class Test {
     public static void main(String[] args) {
 
         Pattern pattern = Pattern.compile("^([a-zA-Z0-9_+.-]+)@([a-zA-Z]+)\\.([a-zA-Z]+)$");
-        Matcher matcher = pattern.matcher("onur.novruzlu@mail.ru");
+        Matcher matcher = pattern.matcher("my.mail@mail.ru");
 
         System.out.println(matcher.matches());
     }
